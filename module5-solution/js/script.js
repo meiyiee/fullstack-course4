@@ -90,7 +90,7 @@ $ajaxUtils.sendGetRequest(
 
 function chooseRandomCategory (categories) {
   var randomArrayIndex = Math.floor(Math.random() * categories.length);
-  return categories[randomArrayIndex];
+  return categories[randomArrayIndex];}
   
 // Builds HTML for the home page based on categories array
 // returned from the server.
